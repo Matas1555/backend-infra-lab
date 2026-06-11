@@ -1,7 +1,6 @@
 ## Running the app
 App runs by command `symfony server:start`
-
-Usefull commands: `--port=****`, `--listen-ip:0.0.0.0`, `--allow-http`
+Usefull flags for that commans: `--port=****`, `--listen-ip:0.0.0.0`, `--allow-http`
 
 The app runs on port 8000 by default.
 
