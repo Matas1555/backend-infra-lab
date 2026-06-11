@@ -8,8 +8,8 @@ use Symfony\Component\Routing\Attribute\Route;
 class HealthController extends AbstractController
 {
     #[Route('/health', name: 'check_health')]
-    public function check()
+    public function index(): Response
     {
-        echo "I am okay!";
+        return new Response("Everything is okay!");
     }
 }
